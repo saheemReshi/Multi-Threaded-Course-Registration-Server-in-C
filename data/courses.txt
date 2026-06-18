@@ -1,0 +1,4 @@
+R2|Stat Math|40|0
+R3|topology|53|0
+H1|cars|88|0
+H2|bikes|89|0

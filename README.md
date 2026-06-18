@@ -1,5 +1,3 @@
-Here's a README geared toward systems-programming recruiters rather than course graders.
-
 # Concurrent Course Registration System
 
 A multi-threaded client-server course registration system built in C using POSIX threads, TCP sockets, and file locking. The system supports concurrent access by students, faculty, and administrators while maintaining data consistency through synchronization mechanisms.
@@ -108,12 +106,7 @@ Record-level locking ensures consistency during concurrent updates.
 make
 ```
 
-or
 
-```bash
-gcc server.c -o server -lpthread
-gcc client.c -o client
-```
 
 ## Running the Application
 
@@ -142,16 +135,6 @@ This project was built to gain hands-on experience with:
 * File locking
 * Linux system programming
 * Multi-user system design
-
-## Future Improvements
-
-* Replace file-based storage with SQLite/PostgreSQL
-* Thread pool implementation instead of thread-per-client
-* Role-based access control enhancements
-* Structured logging
-* Configuration file support
-* REST API interface
-* Docker deployment support
 
 ---
 
